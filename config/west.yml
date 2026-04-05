@@ -16,6 +16,9 @@ manifest:
     - name: m165437
       url-base: https://github.com/m165437
 
+    - name: badjeff
+      url-base: https://github.com/badjeff
+
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -40,6 +43,10 @@ manifest:
 
     - name: nice-view-gem
       remote: m165437
+      revision: main
+
+    - name: zmk-pmw3610-driver
+      remote: badjeff
       revision: main
 
   self:
