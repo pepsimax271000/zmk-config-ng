@@ -93,7 +93,6 @@ ZMK_BEHAVIOR(lt_mb3, hold_tap,
 )
 
 ZMK_COMBO(caps, &kp CAPSLOCK, LM2 RM2)
-ZMK_COMBO(sni, &mo 7, RB2 RB3)
 
 ZMK_CONDITIONAL_LAYER(ext, NUM SYM, EXT) // FN + NUM --> SYS.
 
@@ -128,20 +127,20 @@ ZMK_LAYER(ext,
 ZMK_LAYER(mou,
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
-    &lt_sni 6 Z &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &mkp MB1
-                                &mkp MB1   &lt_mb3 5 MB3 &mkp MB2       &trans       &trans
+    &lt_sni 6 Z     &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &mkp MB1
+                                &mkp MB1   &lt_mb3 5 MB3    &mkp MB2       &trans      &trans
 )
 
 ZMK_LAYER(scr,
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
     &lt_sni 6 Z     &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
-                                &mkp MB1   &mkp MB3         &mkp MB2       &trans       &trans
+                                &mkp MB1   &mkp MB3         &mkp MB2       &trans      &trans
 )
 
 ZMK_LAYER(sni,
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
     &trans          &trans      &trans     &trans           &trans         &trans      &trans           &trans        &trans        &trans
-                                &mkp MB1   &lt_mb3 5 MB3 &mkp MB2       &trans       &trans
+                                &mkp MB1   &lt_mb3 5 MB3    &mkp MB2       &trans      &trans
 )

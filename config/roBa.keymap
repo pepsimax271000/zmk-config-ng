@@ -87,7 +87,6 @@ ZMK_BEHAVIOR(lt_mb3, hold_tap,
 )
 
 ZMK_COMBO(caps, &kp CAPSLOCK, LM2 RM2)
-ZMK_COMBO(sni, &mo 7, RB2 RB3)
 
 ZMK_CONDITIONAL_LAYER(ext, 1 2, 3)
 

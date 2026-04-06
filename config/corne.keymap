@@ -93,8 +93,8 @@ ZMK_LAYER(sym,
 )
 
 ZMK_LAYER(ext,
-    &trans &trans          &trans      &trans     &trans           &trans        &tog 1       &tog 2          &tog 3        &tog 4        &trans &trans
-    &trans &trans          &trans      &trans     &trans           &trans         &bt BT_CLR   &out OUT_TOG    &trans        &trans        &bootloader &trans
-    &trans &trans          &trans      &trans     &trans           &trans         &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5 &trans
-                                &trans     &trans           &trans         &trans       &trans          &trans
+    &trans      &trans          &trans      &trans     &trans           &trans         &trans       &trans          &trans        &trans    &trans          &trans
+    &trans      &trans          &trans      &trans     &trans           &trans         &bt BT_CLR   &trans          &trans        &trans    &bootloader     &trans
+    &trans      &trans          &trans      &trans     &trans           &trans         &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5 &trans
+                                            &trans     &trans           &trans         &trans       &trans          &trans
 )
