@@ -25,9 +25,11 @@ include:
 
   - board: xiao_ble//zmk
     shield: roBa_L
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: roBa_left
   - board: xiao_ble//zmk
     shield: roBa_R
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: roBa_right
 
   - board: xiao_ble//zmk
@@ -49,9 +51,11 @@ include:
 
   - board: nice_nano@2//zmk
     shield: charybdis_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: charybdis_left
   - board: nice_nano@2//zmk
     shield: charybdis_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: charybdis_right
 
   - board: nice_nano@2//zmk
