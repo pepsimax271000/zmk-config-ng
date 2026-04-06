@@ -1,0 +1,177 @@
+layout: {zmk_keyboard: corne}
+layers:
+  def:
+  - LGUI
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DEL
+  - LCTRL
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
+  - G
+  - H
+  - {t: J, h: LCTRL}
+  - {t: K, h: RSHFT}
+  - {t: L, h: LALT}
+  - {t: ;, h: LGUI}
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - ESC
+  - {t: TAB, h: num}
+  - {t: SPACE, h: LSHFT}
+  - RET
+  - {t: BSPC, h: sym}
+  - {t: DEL, h: ext}
+  num:
+  - LGUI
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - PLAY
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - DEL
+  - LCTRL
+  - '-'
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - CAPSLOCK
+  - ''''
+  - LSHFT
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '|'
+  - TAB
+  - ext
+  - {t: ▽, type: trans}
+  sym:
+  - LGUI
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - F12
+  - F7
+  - F8
+  - F9
+  - PSCRN
+  - DEL
+  - LCTRL
+  - _
+  - $
+  - '%'
+  - ^
+  - +
+  - F11
+  - F4
+  - F5
+  - F6
+  - DEL
+  - ''''
+  - LSHFT
+  - )
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - F10
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - RSHFT
+  - {t: ▽, type: trans}
+  - '&caps_word'
+  - NUBS
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  ext:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '5'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+combos:
+- p: [15, 20]
+  k: CAPSLOCK
