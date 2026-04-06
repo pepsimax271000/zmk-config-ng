@@ -2,12 +2,12 @@
 
 ## Corne
 
-<img src=./svg/corne.svg
+<img src=./svg/corne.svg>
 
 ## Charybdis
 
-<img src=./svg/charybdis.svg
+<img src=./svg/charybdis.svg>
 
 ## RoBa 
 
-<img src=./svg/roBa.svg
+<img src=./svg/roBa.svg>
