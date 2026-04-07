@@ -154,7 +154,7 @@ rect.held, rect.combo.held {
     fill: #f38ba8;
 }
 text.label, text.footer {
-    fill: #cdd6f4;
+    fill: #89b4fa;
 }
 
 /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
