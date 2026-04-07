@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: ▽, type: trans}
+  - ESC
   - {t: TAB, h: num}
   - {t: SPACE, h: LSHFT}
   - RET
   - {t: BSPC, h: sym}
-  - '&lt_del 3 DEL'
+  - {t: DEL, h: ext}
   num:
   - LGUI
   - '['
@@ -167,11 +167,11 @@ layers:
   - {t: BT, h: '5'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
 combos:
 - p: [15, 20]
   k: CAPS
