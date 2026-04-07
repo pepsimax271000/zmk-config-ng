@@ -153,8 +153,8 @@ rect.key, rect.combo {
 rect.held, rect.combo.held {
     fill: #f38ba8;
 }
-text.label, text.footer {
-    fill: #89b4fa;
+text.label, text.footer, text.trans {
+    fill: #cdd6f4;
 }
 
 /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
