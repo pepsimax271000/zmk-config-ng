@@ -44,20 +44,26 @@ draw_config:
     }
 
     /* Color accent for held keys
-    red = #f00
-    green = #0f0
-    blue = #00f
-    yellow = #ff0
-    cyan = #0ff
-    magenta = #f0f
-    white = #fff
-    black = #000
-    grey = #888
-    light grey = #ccc
-    #ffc
+    red = #f38ba8
+    green = #a6e3a1
+    blue = #89b4fa
+    yellow = #f9e2af
+    cyan = #94e2d5
+    magenta = #cba6f7
+    white = #cdd6f4
+    black = #11111b
+    grey = #1e1825
+    light grey = #9399b2
+    #fab387
     */
+    rect.key {
+        fill: #1e1e2e;
+    }
     rect.held, rect.combo.held {
-        fill: #f00;
+        fill: #f38ba8;
+    }
+    text.label, text.footer {
+        fill: #cdd6f4;
     }
 
     /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
