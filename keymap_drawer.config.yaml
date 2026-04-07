@@ -12,7 +12,7 @@ parse_config:
 
 draw_config:
   append_colon_to_layer_header: false
-  dark_mode: on
+  dark_mode: auto
   footer_text: "pepsimax271000/zmk-config-ng"
   n_columns: 1
   # draw_key_sides: true # draw a square in the middle of the keys
