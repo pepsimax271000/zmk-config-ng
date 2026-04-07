@@ -40,7 +40,7 @@ draw_config:
       font-size: 16px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      fill: #1e1e2e;
+      fill: #cdd6f4;
     }
 
     /* Color accent for held keys
@@ -57,7 +57,7 @@ draw_config:
     #fab387
     */
     rect.key {
-        fill: #cdd6f4;
+        fill: #1e1e2e;
     }
     rect.held, rect.combo.held {
         fill: #f38ba8;
