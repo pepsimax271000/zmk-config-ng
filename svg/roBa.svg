@@ -124,6 +124,39 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
+@media (prefers-color-scheme: dark) {
+svg.keymap {
+  font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  fill: #cdd6f4;
+}
+
+/* Color accent for held keys
+red = #f38ba8
+green = #a6e3a1
+blue = #89b4fa
+yellow = #f9e2af
+cyan = #94e2d5
+magenta = #cba6f7
+white = #cdd6f4
+black = #11111b
+grey = #1e1825
+light grey = #9399b2
+#fab387
+*/
+rect.key {
+    fill: #1e1e2e;
+}
+rect.held, rect.combo.held {
+    fill: #f38ba8;
+}
+text.label, text.footer {
+    fill: #89b4fa;
+}
+
+}
 /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
 svg.keymap {
