@@ -377,9 +377,9 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RSHFT</text>
 </g>
-<g transform="translate(224, 205)" class="key keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESC</text>
+<g transform="translate(224, 205)" class="key trans keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -404,15 +404,27 @@ text.label, text.footer, text.trans {
 </a></g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DEL</text>
-<a href="#ext">
-<text x="0" y="24" class="key hold layer-activator">ext</text>
-</a></g>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 86%">&amp;lt_del</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">3</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">DEL</tspan>
+</text>
+</g>
 <g class="combo combopos-0">
 <path d="M420,84 l-205,0" class="combo"/>
 <path d="M420,84 l205,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="71" width="28" height="26" class="combo"/>
-<text x="420" y="84" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<text x="420" y="84" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,91 l-149,0" class="combo"/>
+<path d="M420,91 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
+<text x="420" y="91" class="combo tap"><tspan style="font-size: 75%">CAPSWORD</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M644,91 l37,0" class="combo"/>
+<path d="M644,91 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">;</text>
 </g>
 </g>
 </g>
@@ -571,9 +583,9 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RSHFT</text>
 </g>
-<g transform="translate(224, 205)" class="key trans keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(224, 205)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">`</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key held keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -599,7 +611,19 @@ text.label, text.footer, text.trans {
 <path d="M420,84 l-205,0" class="combo"/>
 <path d="M420,84 l205,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="71" width="28" height="26" class="combo"/>
-<text x="420" y="84" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<text x="420" y="84" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,91 l-149,0" class="combo"/>
+<path d="M420,91 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
+<text x="420" y="91" class="combo tap"><tspan style="font-size: 75%">CAPSWORD</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M644,91 l37,0" class="combo"/>
+<path d="M644,91 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">;</text>
 </g>
 </g>
 </g>
@@ -779,7 +803,19 @@ text.label, text.footer, text.trans {
 <path d="M420,84 l-205,0" class="combo"/>
 <path d="M420,84 l205,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="71" width="28" height="26" class="combo"/>
-<text x="420" y="84" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<text x="420" y="84" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,91 l-149,0" class="combo"/>
+<path d="M420,91 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
+<text x="420" y="91" class="combo tap"><tspan style="font-size: 75%">CAPSWORD</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M644,91 l37,0" class="combo"/>
+<path d="M644,91 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">;</text>
 </g>
 </g>
 </g>
@@ -941,9 +977,8 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(286, 213) rotate(15.0)" class="key trans keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(286, 213) rotate(15.0)" class="key held keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key trans keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
@@ -953,18 +988,30 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(554, 213) rotate(-15.0)" class="key trans keypos-40">
+<g transform="translate(554, 213) rotate(-15.0)" class="key held keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
+<g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g transform="translate(616, 205)" class="key held keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g class="combo combopos-0">
 <path d="M420,84 l-205,0" class="combo"/>
 <path d="M420,84 l205,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="71" width="28" height="26" class="combo"/>
-<text x="420" y="84" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+<text x="420" y="84" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,91 l-149,0" class="combo"/>
+<path d="M420,91 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
+<text x="420" y="91" class="combo tap"><tspan style="font-size: 75%">CAPSWORD</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M644,91 l37,0" class="combo"/>
+<path d="M644,91 l-37,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">;</text>
 </g>
 </g>
 </g>

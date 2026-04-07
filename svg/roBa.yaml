@@ -22,7 +22,7 @@ layers:
   - {t: J, h: LCTRL}
   - {t: K, h: RSHFT}
   - {t: L, h: LALT}
-  - {t: ;, h: LGUI}
+  - {t: '''', h: LGUI}
   - {t: Z, h: sni}
   - X
   - C
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - {type: held}
   - '|'
   - TAB
@@ -310,4 +310,8 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [12, 19]
-  k: CAPSLOCK
+  k: CAPS
+- p: [13, 18]
+  k: CAPSWORD
+- p: [20, 18]
+  k: ;
