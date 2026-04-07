@@ -7,13 +7,13 @@ parse_config:
     '&mkp MB2': Right Click
     '&mkp MB3': Middle Click
     '&caps_word': Caps Word
+    '&lt_mb3 5 MB3': Middle Scroll
 
 
 draw_config:
   append_colon_to_layer_header: false
-  dark_mode: auto
+  dark_mode: on
   footer_text: "pepsimax271000/zmk-config-ng"
-  # dark_mode: auto
   n_columns: 1
   # draw_key_sides: true # draw a square in the middle of the keys
   key_w: 60.0
@@ -31,6 +31,7 @@ draw_config:
   arc_radius: 6.0
   append_colon_to_layer_header: true
   small_pad: 2.0
+  svg_style_dark: |
   svg_extra_style: |
     /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
@@ -39,6 +40,7 @@ draw_config:
       font-size: 16px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
+      fill: #1e1e2e;
     }
 
     /* Color accent for held keys
