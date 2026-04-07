@@ -57,7 +57,7 @@ draw_config:
     #fab387
     */
     rect.key {
-        fill: #1e1e2e;
+        fill: #cdd6f4;
     }
     rect.held, rect.combo.held {
         fill: #f38ba8;
