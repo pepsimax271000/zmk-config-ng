@@ -414,12 +414,6 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
 </g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 344)" class="layer-num">
@@ -605,12 +599,6 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 689)" class="layer-sym">
@@ -788,12 +776,6 @@ text.label, text.footer, text.trans {
 <g transform="translate(700, 217)" class="key trans keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
 </g>
 </g>
 </g>
@@ -983,12 +965,6 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1378)" class="layer-mou">
@@ -1176,12 +1152,6 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1722)" class="layer-scr">
@@ -1367,12 +1337,6 @@ text.label, text.footer, text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2067)" class="layer-sni">
@@ -1554,12 +1518,6 @@ text.label, text.footer, text.trans {
 <g transform="translate(700, 217)" class="key trans keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<path d="M364,84 l-205,0" class="combo"/>
-<path d="M364,84 l205,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
-<text x="364" y="84" class="combo tap">CAPS</text>
 </g>
 </g>
 </g>
