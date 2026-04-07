@@ -253,5 +253,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [13, 16]
-  k: CAPSWORD
+- p: [12, 17]
+  k: CAPS
