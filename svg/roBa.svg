@@ -147,14 +147,11 @@ grey = #1e1825
 light grey = #9399b2
 #fab387
 */
-rect.key {
+rect.key, rect.combo {
     fill: #1e1e2e;
 }
 rect.held, rect.combo.held {
     fill: #f38ba8;
-}
-rect.combo {
-    fill: #89b4fa;
 }
 text.label, text.footer {
     fill: #89b4fa;
