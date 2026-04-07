@@ -1,5 +1,5 @@
 #include "zmk-helpers/key-labels/42.h"
 
-ZMK_COMBO(caps, &kp CAPS, LM2 RM2, BASE NAV NUM, 45)
-ZMK_COMBO(capsword, &kp CAPSWORD, LM1 RM1, BASE NAV NUM, 45)
-//ZMK_COMBO(semi, &kp SEMICOLON, RM3 RM1, BASE NAV NUM, 45)
+ZMK_COMBO(caps, &kp CAPS, LM2 RM2)
+ZMK_COMBO(capsword, &kp CAPSWORD, LM1 RM1)
+ZMK_COMBO(semi, &kp SEMICOLON, RM3 RM1)
