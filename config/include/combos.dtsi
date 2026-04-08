@@ -1,4 +1,8 @@
 #undef COMBO_TERM
 #define COMBO_TERM 45
 
-ZMK_COMBO(caps, &kp CAPS, LM2 RM2, BASE)
+ZMK_CONDITIONAL_LAYER(ext, 1 2, 3)
+
+ZMK_COMBO(caps, &kp CAPS, LM2 RM2, ALL, 45)
+
+ZMK_COMBO(capsword, &caps_word, LM1 RM1, ALL, 45)
