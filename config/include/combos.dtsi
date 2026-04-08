@@ -2,4 +2,5 @@
 #define COMBO_TERM 45
 
 ZMK_COMBO(caps, &kp CAPS, LM2 RM2, BASE)
+
 ZMK_COMBO(capsword, &caps_word, LM1 RM1, BASE)
