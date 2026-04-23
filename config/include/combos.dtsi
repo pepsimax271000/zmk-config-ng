@@ -2,7 +2,3 @@
 #define COMBO_TERM 45
 
 ZMK_CONDITIONAL_LAYER(ext, 1 2, 3)
-
-ZMK_COMBO(capsword, &caps_word, LM1 RM1, ALL, 45)
-
-ZMK_COMBO(semicolon, &kp SEMICOLON, RM1 RM2, ALL, 45)
