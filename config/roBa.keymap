@@ -11,9 +11,9 @@
 
 ZMK_LAYER(base,
 		&kp Q          &kp W       &kp E         &kp R          &kp T                                  &kp Y       &kp U            &kp I         &kp O       &kp P         
-		&hml LGUI A    &hml LALT S &hml LSHFT D  &hml LCTRL F   &kp G &trans                    &trans &kp H       &hmr LCTRL J     &hmr RSHFT K  &hmr LALT L &hmr LGUI APOS
+		&hml LGUI A    &hml LALT S &hml LSHFT D  &hml LCTRL F   &kp G &trans                    &kp SEMI &kp H       &hmr LCTRL J     &hmr RSHFT K  &hmr LALT L &hmr LGUI APOS
     &lt_sni 6 Z    &kp X       &kp C         &kp V          &kp B &trans                    &trans &kp N       &kp M            &kp COMMA     &kp DOT     &kp FSLH
-    &kp LCTRL  		 &kp LALT    &kp LGUI      &lt_scr 5 ESC &lt_tab 1 TAB  &lt_shift LSHFT SPACE &kp RET        &lt_back 2 BSPC                            &kp SEMI
+    &kp LCTRL  		 &kp LALT    &kp LGUI      &lt_scr 5 ESC &lt_tab 1 TAB  &lt_shift LSHFT SPACE &kp RET        &lt_back 2 BSPC                            &mo 3
 )
 
 ZMK_LAYER(num,  
@@ -32,7 +32,7 @@ ZMK_LAYER(sym,
 
 ZMK_LAYER(ext,
     &trans         &trans      &trans        &trans         &trans                                 &trans      &trans           &trans        &trans        &bootloader
-    &trans         &trans      &trans        &trans         &trans  &trans                  &trans &tog 1      &tog 2           &tog 3        &tog 4        &trans
+    &trans         &trans      &trans        &trans         &trans  &trans                  &trans &tog 1      &tog 2           &tog 7        &tog 8        &trans
     &trans         &trans      &trans        &trans         &trans  &trans                  &trans &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5
     &trans         &trans      &trans        &trans         &trans  &trans                  &trans &trans                                                   &trans
 )
@@ -57,3 +57,10 @@ ZMK_LAYER(sni,
     &trans         &trans      &trans        &trans         &trans  &trans                  &trans &trans      &trans           &trans        &trans        &trans
     &trans         &trans      &trans        &mkp MB1       &lt_mb3 5 MB3   &mkp MB2        &trans &trans                                                   &trans
 )
+
+ZMK_LAYER(game,
+		&kp 1          &kp 2       &kp 3         &kp 4          &kp 5                                  &kp Y       &kp U            &kp I         &kp O       &kp P         
+		&kp LCTRL      &kp Q       &kp W         &kp E          &kp R &kp T                     &trans &kp H       &hmr LCTRL J     &hmr RSHFT K  &hmr LALT L &hmr LGUI APOS
+    &kp LSHFT      &kp A       &kp S         &kp D          &kp F &kp G                            &trans &kp N &kp M           &kp COMMA     &kp DOT     &kp FSLH
+    &kp Z          &kp X       &kp C         &kp V          &kp B &kp SPACE                        &kp RET        &lt_back 2 BSPC                            &kp SEMI
+  )

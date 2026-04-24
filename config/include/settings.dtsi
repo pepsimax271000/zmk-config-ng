@@ -5,3 +5,4 @@
 #define MOU 4
 #define SCR 5
 #define SNI 6
+#define GAME 7
